@@ -36,31 +36,35 @@
         <div class="content">
             <h1>Web Design & <br><span>Development</span> <br>Course</h1>
             <p class="par">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repudiandae voluptatum eum <br> labore, odit architecto possimus deleniti doloribus be perspiciatis voluptatibus  dolore tempore <br> officiis cumque eos, sed, eveniet accusantium suscipit nam. Lorem ipsum dolor sit amet.
+                Join our comprehensive course on web design and development. Whether you're a beginner <br> or looking to expand your skills, this course covers everything from creating stunning website  <br> designs to building responsive, dynamic websites. Learn the latest technologies, tools, and
+                <br> best practices to succeed in the world of web development.
             </p>
 
             <button class="ju"><a href="#">JOIN US</a></button>
 
             <div class="form">
                 <h2>Login Here</h2>
-                <input type="email" name="email" placeholder="Entre Email Here">
-                <input type="password" name="password" placeholder="Entre password Here">
-                <button class="login-btn"><a href="#">Login</a></button>
+                <input id="email" type="email" name="email" placeholder="Entre Email Here">
+                <input id="password" type="password" name="password" placeholder="Entre password Here">
+                <button class="login-btn"><a href="#" onclick="validateForm()">Login</a></button>
 
                 <p class="link">Don't have an account <br> <a href="#">Sign up here</a></p>
                 <p class="liw">Log in with</p>
 
+                <div id="alert" style="color: red;"></div>
+
                 <div class="icons">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                    <a href="https://www.facebook.com/login/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="https://x.com/i/flow/login" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.google.com/" target="_blank"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="https://www.skype.com/" target="_blank"><ion-icon name="logo-skype" target="_blank"></ion-icon></a>
                 </div>
                 
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
