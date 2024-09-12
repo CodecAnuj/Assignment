@@ -8,5 +8,5 @@ function validateForm() {
       } else {
         alertDiv.textContent = '';
         window.location.href = "https://www.google.com/";
-      }
+      }  
 }
